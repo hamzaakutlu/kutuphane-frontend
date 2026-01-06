@@ -1,16 +1,24 @@
-# React + Vite
+# 📚 Kütüphane Yönetim Sistemi - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, bir kütüphane otomasyon sisteminin kullanıcı arayüzüdür. Kullanıcıların kitapları listelemesine, ödünç almasına ve adminlerin sistemi yönetmesine olanak tanır.
 
-Currently, two official plugins are available:
+## 🚀 Canlı Demo
+[Vercel Üzerindeki Canlı Linkini Buraya Yapıştır]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Özellikler
+- **Üye Yönetimi:** Giriş yapma, kayıt olma ve profil yönetimi.
+- **Kitap Kataloğu:** Kitapları kategorilere göre filtreleme ve arama.
+- **Admin Paneli:** Kitap ekleme/silme/güncelleme ve kullanıcı yetkilendirme.
+- **Modern Arayüz:** React ve Vite ile hızlı, duyarlı (responsive) tasarım.
 
-## React Compiler
+## 🛠️ Kullanılan Teknolojiler
+- **React** (Vite ile)
+- **Axios** (API istekleri için)
+- **CSS3** (Özel yeşil tema tasarımı)
+- **Vercel** (Deployment/Yayınlama)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Kurulum
+Projeyi yerelde çalıştırmak için:
+1. `git clone` ile projeyi indirin.
+2. `npm install` ile bağımlılıkları yükleyin.
+3. `npm run dev` ile projeyi başlatın.
