@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3004', // Senin yerel backend portun
+  baseURL: 'https://kutuphane-backend-lg8b.onrender.com', // Senin yerel backend portun
 });
 
 api.interceptors.request.use((config) => {
@@ -15,5 +15,6 @@ api.interceptors.request.use((config) => {
 // Admin sayfalarında kullanılacak yardımcı fonksiyonlar
 export const getAllUsers = () => api.get('/auth/users');
 export const deleteUser = (id) => api.delete(`/auth/users/${id}`);
+
 
 export default api;
